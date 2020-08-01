@@ -1,0 +1,24 @@
+.chat{
+    display: flex;
+    padding-bottom: 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #fafafa;
+}
+.chat__info{
+    flex: 1;/*give priority to this child and give as much space as it can*/
+    margin-left: 20px;
+}
+.chat__info >h2{
+    font-size: 17px;
+}
+.chat__info > p{
+    color: grey;
+}
+.chat__timestamp{
+    color:lightgrey;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
